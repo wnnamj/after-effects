@@ -1,0 +1,11 @@
+// loops wiggle on selected properties
+
+
+frequency = 2;
+amplitude = 40;
+secondsToLoop = 3;
+
+t = time % secondsToLoop;
+wiggle1 = wiggle(frequency, amplitude, 1, 0.5, t);
+wiggle2 = wiggle(frequency, amplitude, 1, 0.5, t - secondsToLoop);
+linear(t, 0,  secondsToLoop, wiggle1, wiggle2)

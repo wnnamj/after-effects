@@ -1,0 +1,5 @@
+// inverts opacity of opposite layer
+
+
+t = [PICKWHIP TO OPPOSITE LAYER OPACITY];
+linear(t,0,100,100,0);
