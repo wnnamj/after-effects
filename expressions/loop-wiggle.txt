@@ -1,8 +1,11 @@
-frequency = 2;
-amplitude = 40;
-secondsToLoop = 3;
-
+/* variables */
+/* attach values to a slider for more control */
+frequency = 2; // how fast to wiggle
+amplitude = 40; // how far to wiggle
+secondsToLoop = 3; // seconds it takes to loop
 t = time % secondsToLoop;
 wiggle1 = wiggle(frequency, amplitude, 1, 0.5, t);
 wiggle2 = wiggle(frequency, amplitude, 1, 0.5, t - secondsToLoop);
+
+/* loop wiggling */
 linear(t, 0,  secondsToLoop, wiggle1, wiggle2)

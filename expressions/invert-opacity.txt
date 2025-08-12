@@ -1,2 +1,5 @@
+/* variables */
 t = [PICKWHIP TO OPPOSITE LAYER OPACITY];
+
+/* opacity inverting */
 linear(t,0,100,100,0);

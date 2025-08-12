@@ -1,3 +1,6 @@
+/* variables */
 chkBx = [PICKWHIP TO CHECKBOX]
+
+/* checkbox controls */
 if (chkBx == 1) 100
   else 0;

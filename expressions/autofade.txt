@@ -1,5 +1,7 @@
+/* variables */
 transition = effect("fade")("Slider");
 
+/* fading */
 if (marker.numKeys<2) {tSecs = transition / ( 1 / thisComp.frameDuration);
-linear(time, inPoint, inPoint + tSecs, 0, 100) - linear(time, outPoint - tSecs, outPoint, 0, 100)}
+linear(time, inPoint, inPoint + tSecs, 0, 100) - linear(time, outPoint - tSecs, outPoint, 0, 100)} // (inpoint - outpoint) can delete unused if only one is needed
   else {linear(time, inPoint, marker.key(1).time, 0, 100) - linear(time, marker.key(2).time, outPoint, 0, 100)}
