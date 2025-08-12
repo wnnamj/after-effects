@@ -1,0 +1,3 @@
+chkBx = [PICKWHIP TO CHECKBOX]
+if (chkBx == 1) 100
+  else 0;

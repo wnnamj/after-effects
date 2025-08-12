@@ -1,6 +1,3 @@
-// loops path keyframes
-
-
 if (numKeys >1 && time > key(numKeys).time) {
   t1 = key(1).time;
   t2 = key(numKeys).time;

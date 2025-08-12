@@ -1,7 +1,5 @@
-// delays keyframes based on slider
-
-
 null = thisComp.layer("▣ void_controls")
 s = null.effect("delay")("Slider"); // PICKWHIP TO SLIDER
 t = time - s;
+
 valueAtTime(t)

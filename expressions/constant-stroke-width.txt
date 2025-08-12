@@ -1,0 +1,1 @@
+value/Math.max(length(toComp([0,0]), toComp([0.7071,0.7071])), 0.001);

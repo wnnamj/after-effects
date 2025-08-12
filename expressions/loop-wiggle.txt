@@ -1,6 +1,3 @@
-// loops wiggle on selected properties
-
-
 frequency = 2;
 amplitude = 40;
 secondsToLoop = 3;
