@@ -60,29 +60,3 @@ Final trigger = -inv
 - This will restore what was stored in the clipboard prior to inputing the expression
 
 ### ***That's it!***
-
-
-<!-- styles -->
-
-<style>
-
-a:link {
-  color: #000000;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #7276CA;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #F3AE5D;
-  background-color: transparent;
-  text-decoration: underline;
-}
-}
-
-</style>
