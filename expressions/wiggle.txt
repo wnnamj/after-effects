@@ -1,1 +1,1 @@
-/* variables */globalControl = thisComp.layer("▣ void-global_ctrl"); // global null controllerf = globalControl.effect("freq")("Slider");a = globalControl.effect("amp")("Slider");/* wiggle */wiggle(f,a)
+/* variables */globalControl = thisComp.layer("▣ void-global-controls"); // global null controllerf = globalControl.effect("freq")("Slider");a = globalControl.effect("amp")("Slider");/* wiggle */wiggle(f,a)
