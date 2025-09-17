@@ -1,0 +1,8 @@
+/* variables */
+nullController = thisComp.layer("▣ void-icons"); // PICKWHIP TO NULL
+layerPosition = thisComp.layer(index - 1).transform.yPosition;
+layerDelay = nullController.effect("delay")("Slider")*thisComp.frameDuration;
+
+
+/* delay */
+layerPosition.valueAtTime(time-layerDelay);

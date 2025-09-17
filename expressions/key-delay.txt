@@ -1,7 +1,7 @@
 /* variables */
-null = thisComp.layer("▣ void-global-controls") // PICKWHIP TO NULL
-s = null.effect("delay")("Slider");
+nullControl = thisComp.layer("▣ void-global-controls"); // PICKWHIP TO NULL
+s = nullControl.effect("delay")("Slider");
 t = time - s;
 
 /* delay */
-valueAtTime(t)
+valueAtTime(t);
