@@ -1,5 +1,5 @@
 /* variables */
-chkBx = [PICKWHIP TO CHECKBOX]
+chkBx = ; // pickwhip to checkbox
 
 /* checkbox controls */
 if (chkBx == 1) 100

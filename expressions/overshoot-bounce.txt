@@ -1,1 +1,37 @@
-@ -0,0 +1,37 @@﻿elev = degreesToRadians(75);v = 1900;e = .7;f = .5;g = 5000;nMax = 9;tLaunch = 1; vy = v*Math.sin(elev);vx = v*Math.cos(elev);if (time >= tLaunch){  t = time - tLaunch;  tCur = 0;  segDur = 2*vy/g;  tNext = segDur;  d = 0; // x distance traveled  nb = 0; // number of bounces  while (tNext < t && nb <= nMax){    d += vx*segDur;    vy *= e;    vx *= f;    segDur *= e;    tCur = tNext;    tNext += segDur;    nb++  }  if(nb <= nMax){    delta = t - tCur;    x = d + delta*vx;    y = delta*(vy - g*delta/2);  }else{    x = d;    y = 0;  }  value + [x,-y]}else  value
+elev = degreesToRadians(75);
+v = 1900;
+e = .7;
+f = .5;
+g = 5000;
+nMax = 9;
+tLaunch = 1;
+ 
+vy = v*Math.sin(elev);
+vx = v*Math.cos(elev);
+if (time >= tLaunch){
+  t = time - tLaunch;
+  tCur = 0;
+  segDur = 2*vy/g;
+  tNext = segDur;
+  d = 0; // x distance traveled
+  nb = 0; // number of bounces
+  while (tNext < t && nb <= nMax){
+    d += vx*segDur;
+    vy *= e;
+    vx *= f;
+    segDur *= e;
+    tCur = tNext;
+    tNext += segDur;
+    nb++
+  }
+  if(nb <= nMax){
+    delta = t - tCur;
+    x = d + delta*vx;
+    y = delta*(vy - g*delta/2);
+  }else{
+    x = d;
+    y = 0;
+  }
+  value + [x,-y]
+}else
+  value

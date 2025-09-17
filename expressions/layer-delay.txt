@@ -1,8 +1,7 @@
 /* variables */
-nullController = thisComp.layer("▣ void-icons"); // PICKWHIP TO NULL
-layerPosition = thisComp.layer(index - 1).transform.yPosition;
-layerDelay = nullController.effect("delay")("Slider")*thisComp.frameDuration;
-
+nullController = thisComp.layer("▣ void-global-controls"); // pickwhip to null
+delayedProperty = ; // pickwhip to property and change name to 'index - 1'
+timeDelay = nullController.effect("delay")("Slider")*thisComp.frameDuration;
 
 /* delay */
-layerPosition.valueAtTime(time-layerDelay);
+delayedProperty.valueAtTime(time-timeDelay);
