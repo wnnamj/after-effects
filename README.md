@@ -47,7 +47,7 @@ expression(expressionName) {
 
 ### That's it!
 
-Save and reload your new script and you are good to begin executing expressions wiith just a few keystrokes!
+Save and reload your new script and you are good to begin executing expressions with just a few keystrokes!
 
 ---
 
