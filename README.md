@@ -41,7 +41,7 @@ expression(expressionName) {
 
 ##### Example:
 
-`:xc:-atf::expression("auto-fade")`
+```:xc:-atf::expression("autofade")```
 
 ### That's it!
 
